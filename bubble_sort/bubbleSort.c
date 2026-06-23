@@ -1,7 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "../testlib.h"
 #include <string.h>
-#include <time.h>
 #define ARR_LENGTH 10
 
 void printVector(int *vector);
