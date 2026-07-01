@@ -103,7 +103,7 @@ bool isLastValue(List *list, int target) {
 }
 
 bool freeList(List *list) {
-    if(isEmpty(list)) return false;
+    if(list == NULL) return false;
     Node *runner = list->head;
     Node *target;
     while(runner != NULL) {

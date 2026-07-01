@@ -18,8 +18,7 @@ int main(int argc, char const *argv[])
         selectOption(option, stackA);
         printStack(stackA);
     }
-    free(stackA->elements);
-    free(stackA);
+    freeStack(stackA);
     return 0;
 }
 

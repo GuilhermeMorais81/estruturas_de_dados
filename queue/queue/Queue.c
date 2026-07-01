@@ -37,7 +37,7 @@ bool printQueue(Queue *queue) {
 }
 
 bool freeQueue(Queue *queue) {
-    if(isEmpty(queue)) return false;
+    if(queue == NULL) return false;
     Node * runner = queue->head;
     Node *target;
     while(runner != NULL) {

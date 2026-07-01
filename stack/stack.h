@@ -13,3 +13,4 @@ bool push(Stack *stack, int newEl);
 bool pop(Stack *stack, int *popped);
 int length(Stack *stack);
 bool printStack(Stack *stack);
+bool freeStack(Stack *stack);

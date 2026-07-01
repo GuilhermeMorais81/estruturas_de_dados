@@ -38,3 +38,10 @@ bool printStack(Stack *stack) {
     printf("\n");
     return true;
 }
+
+bool freeStack(Stack *stack) {
+    if(stack == NULL) return false;
+    free(stack->elements);
+    free(stack);
+    return true;
+}
